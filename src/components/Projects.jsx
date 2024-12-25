@@ -31,7 +31,7 @@ const Projects = ({ handleClick }) => {
             <div className="flex flex-wrap justify-center">
                 {filteredProjectsData.map((project, index) => (
                     <div key={index} class="w-64 rounded overflow-hidden shadow-lg mb-6 mx-4 border-2 border-neutral-300">
-                        <img class="w-full" src={project.image} alt={`${project.title} image}`} />
+                        <img class="w-full" src={project.image} alt={`${project.title}}`} />
                         <div class="px-6 py-4">
                             <div class="font-bold text-base mb-2 text-neutral-300">{project.title}</div>
                             <p class="text-neutral-300 text-sm">

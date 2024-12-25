@@ -17,7 +17,7 @@ const Intro = ({ handleClick }) => {
                         <div className="my-2 max-w-xl py-4 font-light text-sm">{ABOUT_CONTENT}</div>
                     </div>
                     <div>
-                        <img src={profilePic} alt="Profile Picture" className="w-40 h-60 rounded-lg mt-2 md:mt-0" />
+                        <img src={profilePic} alt="Madhusree Rana" className="w-40 h-60 rounded-lg mt-2 md:mt-0" />
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-evenly">
